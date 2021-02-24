@@ -85,6 +85,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KZC-OC-7r2"/>
+                    <connections>
+                        <outlet property="aisatsu" destination="Kfs-rp-1Ov" id="71M-y9-U4F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Prz-kZ-8oG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="YGf-DU-rLn" userLabel="Exit" sceneMemberID="exit"/>

@@ -15,7 +15,7 @@ class ViewController: UIViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultViewController:ViewController2 = segue.destination as! ViewController2
-        resultViewController.
+        resultViewController.first = "名前を入力してください"
     }
     
     
