@@ -16,7 +16,8 @@ class ViewController2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        aisatsu.text = "こんにちは、\(String(describing: aisatsu))さん"
+        let result = first
+        aisatsu.text = "こんにちは、\(first)さん"
     }
     
 
